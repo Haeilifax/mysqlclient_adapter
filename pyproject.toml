@@ -4,6 +4,9 @@ version = "0.1.0"
 description = "Adapter for mysqlclient to make its use more pythonic"
 authors = ["David A"]
 license = "MIT"
+packages = [
+    {include = MySQLdbAdapter.py}
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
